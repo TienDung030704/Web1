@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.logo__header {
+  width: 80px;
+  height: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */
