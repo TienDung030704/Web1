@@ -24,7 +24,6 @@
     font-weight: 400;
     line-height: 24px; /* 150% */
     margin: 0 36px;
-    position: relative;
     &--lv1 {
       color: #f9f9f9;
       font-family: Sora;
@@ -33,14 +32,17 @@
       font-weight: 400;
       line-height: 24px; /* 150% */
       position: relative;
-      ::before {
+      &::before {
         display: inline-block;
         content: "";
         width: 21px;
         height: 2px;
         background: #6aea5c;
         position: absolute;
-        bottom: 0;
+        bottom: 10px;
+        top: 20px;
+        left: 0;
+        transform: translateY(-50%);
       }
     }
   }
